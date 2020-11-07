@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E687583254D5DD1007F7C0A /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */; };
+		0E687586254D5DE6007F7C0A /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */; };
+		0E68758B254D5E52007F7C0A /* Sassoon-Primary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E68758A254D5E52007F7C0A /* Sassoon-Primary.ttf */; };
+		0E68758E254D5F05007F7C0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E68758D254D5F05007F7C0A /* GoogleService-Info.plist */; };
 		0E7B1F89254D4F550009D1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B1F88254D4F550009D1AB /* AppDelegate.swift */; };
 		0E7B1F8B254D4F550009D1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B1F8A254D4F550009D1AB /* SceneDelegate.swift */; };
 		0E7B1F8D254D4F550009D1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B1F8C254D4F550009D1AB /* ViewController.swift */; };
 		0E7B1F90254D4F550009D1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F8E254D4F550009D1AB /* Main.storyboard */; };
 		0E7B1F92254D4F560009D1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F91254D4F560009D1AB /* Assets.xcassets */; };
 		0E7B1F95254D4F560009D1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F93254D4F560009D1AB /* LaunchScreen.storyboard */; };
+		0E7FA89A254DA75500C010DF /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FA899254DA75500C010DF /* Document.swift */; };
+		0EF7295B254D615100EE102A /* TextToSpeechTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */; };
+		0EF7295E254D62E900EE102A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295D254D62E900EE102A /* Utilities.swift */; };
+		FC1F608004D83FEF6EE01633 /* Pods_casProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
+		0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
+		0E68758A254D5E52007F7C0A /* Sassoon-Primary.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sassoon-Primary.ttf"; sourceTree = "<group>"; };
+		0E68758D254D5F05007F7C0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E7B1F85254D4F550009D1AB /* casProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = casProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B1F88254D4F550009D1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E7B1F8A254D4F550009D1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		0E7B1F91254D4F560009D1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E7B1F94254D4F560009D1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7B1F96254D4F560009D1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7FA899254DA75500C010DF /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTableViewController.swift; sourceTree = "<group>"; };
+		0EF7295D254D62E900EE102A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.debug.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.release.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1F608004D83FEF6EE01633 /* Pods_casProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E687589254D5E3C007F7C0A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0E68758A254D5E52007F7C0A /* Sassoon-Primary.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0E7B1F7C254D4F550009D1AB = {
 			isa = PBXGroup;
 			children = (
 				0E7B1F87254D4F550009D1AB /* casProject */,
 				0E7B1F86254D4F550009D1AB /* Products */,
+				E01707616E2359663235A516 /* Pods */,
+				15443B4ABE8EEE94667C8E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,39 @@
 		0E7B1F87254D4F550009D1AB /* casProject */ = {
 			isa = PBXGroup;
 			children = (
+				0E687589254D5E3C007F7C0A /* Fonts */,
 				0E7B1F88254D4F550009D1AB /* AppDelegate.swift */,
 				0E7B1F8A254D4F550009D1AB /* SceneDelegate.swift */,
 				0E7B1F8C254D4F550009D1AB /* ViewController.swift */,
+				0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */,
+				0E7FA899254DA75500C010DF /* Document.swift */,
+				0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */,
 				0E7B1F8E254D4F550009D1AB /* Main.storyboard */,
+				0EF7295D254D62E900EE102A /* Utilities.swift */,
+				0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */,
 				0E7B1F91254D4F560009D1AB /* Assets.xcassets */,
 				0E7B1F93254D4F560009D1AB /* LaunchScreen.storyboard */,
+				0E68758D254D5F05007F7C0A /* GoogleService-Info.plist */,
 				0E7B1F96254D4F560009D1AB /* Info.plist */,
 			);
 			path = casProject;
+			sourceTree = "<group>";
+		};
+		15443B4ABE8EEE94667C8E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01707616E2359663235A516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */,
+				7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E7B1F99254D4F560009D1AB /* Build configuration list for PBXNativeTarget "casProject" */;
 			buildPhases = (
+				1B6ECA92A03F7F6F6854A89C /* [CP] Check Pods Manifest.lock */,
 				0E7B1F81254D4F550009D1AB /* Sources */,
 				0E7B1F82254D4F550009D1AB /* Frameworks */,
 				0E7B1F83254D4F550009D1AB /* Resources */,
+				C8F4AA2BA54A028195BAC014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +181,69 @@
 			files = (
 				0E7B1F95254D4F560009D1AB /* LaunchScreen.storyboard in Resources */,
 				0E7B1F92254D4F560009D1AB /* Assets.xcassets in Resources */,
+				0E68758E254D5F05007F7C0A /* GoogleService-Info.plist in Resources */,
+				0E68758B254D5E52007F7C0A /* Sassoon-Primary.ttf in Resources */,
 				0E7B1F90254D4F550009D1AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B6ECA92A03F7F6F6854A89C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-casProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F4AA2BA54A028195BAC014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-casProject/Pods-casProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-casProject/Pods-casProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-casProject/Pods-casProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E7B1F81254D4F550009D1AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7FA89A254DA75500C010DF /* Document.swift in Sources */,
+				0E687586254D5DE6007F7C0A /* SpeechToTextViewController.swift in Sources */,
+				0E687583254D5DD1007F7C0A /* TextToSpeechViewController.swift in Sources */,
 				0E7B1F8D254D4F550009D1AB /* ViewController.swift in Sources */,
+				0EF7295E254D62E900EE102A /* Utilities.swift in Sources */,
 				0E7B1F89254D4F550009D1AB /* AppDelegate.swift in Sources */,
 				0E7B1F8B254D4F550009D1AB /* SceneDelegate.swift in Sources */,
+				0EF7295B254D615100EE102A /* TextToSpeechTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +387,7 @@
 		};
 		0E7B1F9A254D4F560009D1AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +407,7 @@
 		};
 		0E7B1F9B254D4F560009D1AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
