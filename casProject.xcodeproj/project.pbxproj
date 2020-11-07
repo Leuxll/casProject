@@ -20,7 +20,7 @@
 		0E7FA89A254DA75500C010DF /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FA899254DA75500C010DF /* Document.swift */; };
 		0EF7295B254D615100EE102A /* TextToSpeechTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */; };
 		0EF7295E254D62E900EE102A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295D254D62E900EE102A /* Utilities.swift */; };
-		FC1F608004D83FEF6EE01633 /* Pods_casProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */; };
+		F46D60A025D9108D9AA08F79 /* Pods_casProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6620C035276225FAC79721F /* Pods_casProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		0E7FA899254DA75500C010DF /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTableViewController.swift; sourceTree = "<group>"; };
 		0EF7295D254D62E900EE102A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.debug.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.debug.xcconfig"; sourceTree = "<group>"; };
-		7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.release.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.release.xcconfig"; sourceTree = "<group>"; };
+		1DE4BF5689F16DE690B63D2F /* Pods-casProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.debug.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C6620C035276225FAC79721F /* Pods_casProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30EFB24C11EB88464ED9DAD /* Pods-casProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.release.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1F608004D83FEF6EE01633 /* Pods_casProject.framework in Frameworks */,
+				F46D60A025D9108D9AA08F79 /* Pods_casProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 				0E7B1F87254D4F550009D1AB /* casProject */,
 				0E7B1F86254D4F550009D1AB /* Products */,
 				E01707616E2359663235A516 /* Pods */,
-				15443B4ABE8EEE94667C8E1B /* Frameworks */,
+				12CD33E63F35E12A142794AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +103,10 @@
 			path = casProject;
 			sourceTree = "<group>";
 		};
-		15443B4ABE8EEE94667C8E1B /* Frameworks */ = {
+		12CD33E63F35E12A142794AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23CDB4EFEDDE1C6FE288F1E0 /* Pods_casProject.framework */,
+				C6620C035276225FAC79721F /* Pods_casProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,8 +114,8 @@
 		E01707616E2359663235A516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */,
-				7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */,
+				1DE4BF5689F16DE690B63D2F /* Pods-casProject.debug.xcconfig */,
+				D30EFB24C11EB88464ED9DAD /* Pods-casProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -127,11 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E7B1F99254D4F560009D1AB /* Build configuration list for PBXNativeTarget "casProject" */;
 			buildPhases = (
-				1B6ECA92A03F7F6F6854A89C /* [CP] Check Pods Manifest.lock */,
+				6BAD65783477590959274F24 /* [CP] Check Pods Manifest.lock */,
 				0E7B1F81254D4F550009D1AB /* Sources */,
 				0E7B1F82254D4F550009D1AB /* Frameworks */,
 				0E7B1F83254D4F550009D1AB /* Resources */,
-				C8F4AA2BA54A028195BAC014 /* [CP] Embed Pods Frameworks */,
+				93FE9D0B756B1922820CB9FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +190,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B6ECA92A03F7F6F6854A89C /* [CP] Check Pods Manifest.lock */ = {
+		6BAD65783477590959274F24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,7 +212,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8F4AA2BA54A028195BAC014 /* [CP] Embed Pods Frameworks */ = {
+		93FE9D0B756B1922820CB9FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,7 +387,7 @@
 		};
 		0E7B1F9A254D4F560009D1AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43DD52433D720D6A8619E72E /* Pods-casProject.debug.xcconfig */;
+			baseConfigurationReference = 1DE4BF5689F16DE690B63D2F /* Pods-casProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,7 +407,7 @@
 		};
 		0E7B1F9B254D4F560009D1AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BD5A6766B0202C699B69A7F /* Pods-casProject.release.xcconfig */;
+			baseConfigurationReference = D30EFB24C11EB88464ED9DAD /* Pods-casProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
