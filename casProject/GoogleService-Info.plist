@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1075131745448-0vglob9ur58c8nr0hjnqbfug2eecbguf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1075131745448-0vglob9ur58c8nr0hjnqbfug2eecbguf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAPqKXYVu4sF2LgIeD5EL4NugN-qZtRcb8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1075131745448</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yuefunglee.casProject</string>
+	<key>PROJECT_ID</key>
+	<string>casproject-a9e34</string>
+	<key>STORAGE_BUCKET</key>
+	<string>casproject-a9e34.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1075131745448:ios:be221afaa18e9e4be2ee9d</string>
+	<key>DATABASE_URL</key>
+	<string>https://casproject-a9e34.firebaseio.com</string>
+</dict>
+</plist>
