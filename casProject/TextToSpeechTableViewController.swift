@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextToSpeechTableViewController: UIViewController {
+class TextToSpeechTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -15,7 +15,29 @@ class TextToSpeechTableViewController: UIViewController {
         super.viewDidLoad()
 
         tableView.backgroundColor = UIColor.init(named: "Primary")
+        tableView.reloadData()
+        tableView.allowsSelection = false
         // Do any additional setup after loading the view.
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        Utilities.textArray.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TextToSpeechTableViewCell {
+            
+            cell.titleLabel.text = Utilities.textArray[indexPath.row].title
+            cell.backgroundColor = UIColor(named: "Primary")
+            cell.configureCell()
+            return cell
+        } else {
+            return UITableViewCell()
+        }
+        
     }
     
 

@@ -99,8 +99,7 @@ class TextToSpeechViewController: UIViewController, VNDocumentCameraViewControll
     @IBAction func addDocumentButtonTapped(_ sender: Any) {
         
         Utilities.textArray.append(Document(title: titleTextField.text!, document: textView.text))
-        print(Utilities.textArray)
-        
+        navigationController?.popViewController(animated: true)
     }
     
     }
