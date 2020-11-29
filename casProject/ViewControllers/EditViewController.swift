@@ -1,14 +1,16 @@
 //
-//  SpeechToTextViewController.swift
+//  EditViewController.swift
 //  casProject
 //
-//  Created by Yue Fung Lee on 31/10/2020.
+//  Created by Yue Fung Lee on 29/11/2020.
 //
 
 import UIKit
 
-class SpeechToTextViewController: UIViewController {
+class EditViewController: UIViewController {
 
+    var toText = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

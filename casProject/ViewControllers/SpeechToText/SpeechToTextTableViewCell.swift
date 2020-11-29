@@ -1,17 +1,17 @@
 //
-//  TextToSpeechTableViewCell.swift
+//  SpeechToTextTableViewCell.swift
 //  casProject
 //
-//  Created by Yue Fung Lee on 8/11/2020.
+//  Created by Yue Fung Lee on 28/11/2020.
 //
 
 import UIKit
 
-class TextToSpeechTableViewCell: UITableViewCell {
+class SpeechToTextTableViewCell: UITableViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var playButton: UIButton!
-    @IBOutlet weak var pauseButton: UIButton!
+    @IBOutlet weak var copyButton: UIButton!
+    var toText : String = ""
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,17 +28,14 @@ class TextToSpeechTableViewCell: UITableViewCell {
         
         titleLabel.font = UIFont(name: "Sassoon-Primary", size: 20)
         titleLabel.textColor = UIColor(named: "Accent")
-        playButton.tintColor = UIColor(named: "Accent")
-        pauseButton.tintColor = UIColor(named: "Accent")
+        copyButton.tintColor = UIColor(named: "Accent")
         
     }
-    
-    @IBAction func playButtonTapped(_ sender: Any) {
-        print("play")
-    }
-    
-    @IBAction func pauseButtonTapped(_ sender: Any) {
-        print("pause")
+
+    @IBAction func copyButtonTapped(_ sender: Any) {
+        
+        UIPasteboard.general.string = toText
+        
     }
     
 }

@@ -10,6 +10,7 @@
 		0E02933C25579C3500E38F04 /* TextToSpeechTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02933B25579C3500E38F04 /* TextToSpeechTableViewCell.swift */; };
 		0E0293662557A48500E38F04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0293652557A48500E38F04 /* Constants.swift */; };
 		0E02936A2557A64500E38F04 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0293692557A64500E38F04 /* NavigationViewController.swift */; };
+		0E37DBED256B584A001CF4F1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E37DBEB256B584A001CF4F1 /* Model.xcdatamodeld */; };
 		0E687583254D5DD1007F7C0A /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */; };
 		0E687586254D5DE6007F7C0A /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */; };
 		0E68758B254D5E52007F7C0A /* Sassoon-Primary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E68758A254D5E52007F7C0A /* Sassoon-Primary.ttf */; };
@@ -20,9 +21,15 @@
 		0E7B1F90254D4F550009D1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F8E254D4F550009D1AB /* Main.storyboard */; };
 		0E7B1F92254D4F560009D1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F91254D4F560009D1AB /* Assets.xcassets */; };
 		0E7B1F95254D4F560009D1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7B1F93254D4F560009D1AB /* LaunchScreen.storyboard */; };
-		0E7FA89A254DA75500C010DF /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FA899254DA75500C010DF /* Document.swift */; };
+		0EA0B33325737E8500676C6F /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA0B33225737E8500676C6F /* EditViewController.swift */; };
+		0EA8B4C22572AF60005DB62C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4C12572AF60005DB62C /* Utilities.swift */; };
+		0EA8B4D22572B13A005DB62C /* SpeechToTextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4D12572B13A005DB62C /* SpeechToTextTableViewController.swift */; };
+		0EA8B4E525734A71005DB62C /* SpeechToTextDocument+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4E125734A71005DB62C /* SpeechToTextDocument+CoreDataClass.swift */; };
+		0EA8B4E625734A71005DB62C /* SpeechToTextDocument+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4E225734A71005DB62C /* SpeechToTextDocument+CoreDataProperties.swift */; };
+		0EA8B4E725734A71005DB62C /* TextToSpeechDocument+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4E325734A71005DB62C /* TextToSpeechDocument+CoreDataClass.swift */; };
+		0EA8B4E825734A71005DB62C /* TextToSpeechDocument+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8B4E425734A71005DB62C /* TextToSpeechDocument+CoreDataProperties.swift */; };
+		0EE595962572AAFD00869356 /* SpeechToTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE595952572AAFD00869356 /* SpeechToTextTableViewCell.swift */; };
 		0EF7295B254D615100EE102A /* TextToSpeechTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */; };
-		0EF7295E254D62E900EE102A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF7295D254D62E900EE102A /* Utilities.swift */; };
 		F46D60A025D9108D9AA08F79 /* Pods_casProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6620C035276225FAC79721F /* Pods_casProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +37,7 @@
 		0E02933B25579C3500E38F04 /* TextToSpeechTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTableViewCell.swift; sourceTree = "<group>"; };
 		0E0293652557A48500E38F04 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = SOURCE_ROOT; };
 		0E0293692557A64500E38F04 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		0E37DBEC256B584A001CF4F1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
 		0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
 		0E68758A254D5E52007F7C0A /* Sassoon-Primary.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sassoon-Primary.ttf"; sourceTree = "<group>"; };
@@ -42,9 +50,15 @@
 		0E7B1F91254D4F560009D1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E7B1F94254D4F560009D1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7B1F96254D4F560009D1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E7FA899254DA75500C010DF /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		0EA0B33225737E8500676C6F /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = casProject/ViewControllers/EditViewController.swift; sourceTree = SOURCE_ROOT; };
+		0EA8B4C12572AF60005DB62C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = SOURCE_ROOT; };
+		0EA8B4D12572B13A005DB62C /* SpeechToTextTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeechToTextTableViewController.swift; path = casProject/ViewControllers/SpeechToText/SpeechToTextTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		0EA8B4E125734A71005DB62C /* SpeechToTextDocument+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeechToTextDocument+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		0EA8B4E225734A71005DB62C /* SpeechToTextDocument+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeechToTextDocument+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		0EA8B4E325734A71005DB62C /* TextToSpeechDocument+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextToSpeechDocument+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		0EA8B4E425734A71005DB62C /* TextToSpeechDocument+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextToSpeechDocument+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		0EE595952572AAFD00869356 /* SpeechToTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextTableViewCell.swift; sourceTree = "<group>"; };
 		0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTableViewController.swift; sourceTree = "<group>"; };
-		0EF7295D254D62E900EE102A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		1DE4BF5689F16DE690B63D2F /* Pods-casProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.debug.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C6620C035276225FAC79721F /* Pods_casProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30EFB24C11EB88464ED9DAD /* Pods-casProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casProject.release.xcconfig"; path = "Target Support Files/Pods-casProject/Pods-casProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,10 +79,22 @@
 		0E0293612557A45000E38F04 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				0EA8B4C12572AF60005DB62C /* Utilities.swift */,
 				0E0293652557A48500E38F04 /* Constants.swift */,
-				0EF7295D254D62E900EE102A /* Utilities.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		0E37DBEF256B58BD001CF4F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EA8B4E125734A71005DB62C /* SpeechToTextDocument+CoreDataClass.swift */,
+				0EA8B4E225734A71005DB62C /* SpeechToTextDocument+CoreDataProperties.swift */,
+				0EA8B4E325734A71005DB62C /* TextToSpeechDocument+CoreDataClass.swift */,
+				0EA8B4E425734A71005DB62C /* TextToSpeechDocument+CoreDataProperties.swift */,
+				0E37DBEB256B584A001CF4F1 /* Model.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0E687589254D5E3C007F7C0A /* Fonts */ = {
@@ -100,24 +126,51 @@
 		0E7B1F87254D4F550009D1AB /* casProject */ = {
 			isa = PBXGroup;
 			children = (
+				0EE5958E2572A7AD00869356 /* ViewControllers */,
+				0E37DBEF256B58BD001CF4F1 /* Model */,
 				0E0293612557A45000E38F04 /* Misc */,
 				0E687589254D5E3C007F7C0A /* Fonts */,
 				0E7B1F88254D4F550009D1AB /* AppDelegate.swift */,
 				0E7B1F8A254D4F550009D1AB /* SceneDelegate.swift */,
-				0E7B1F8C254D4F550009D1AB /* ViewController.swift */,
-				0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */,
-				0E0293692557A64500E38F04 /* NavigationViewController.swift */,
-				0E7FA899254DA75500C010DF /* Document.swift */,
-				0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */,
 				0E7B1F8E254D4F550009D1AB /* Main.storyboard */,
-				0E02933B25579C3500E38F04 /* TextToSpeechTableViewCell.swift */,
-				0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */,
 				0E7B1F91254D4F560009D1AB /* Assets.xcassets */,
 				0E7B1F93254D4F560009D1AB /* LaunchScreen.storyboard */,
 				0E68758D254D5F05007F7C0A /* GoogleService-Info.plist */,
 				0E7B1F96254D4F560009D1AB /* Info.plist */,
 			);
 			path = casProject;
+			sourceTree = "<group>";
+		};
+		0EE5958E2572A7AD00869356 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EE595902572A8A300869356 /* SpeechToText */,
+				0EE5958F2572A7C200869356 /* TextToSpeech */,
+				0E7B1F8C254D4F550009D1AB /* ViewController.swift */,
+				0EA0B33225737E8500676C6F /* EditViewController.swift */,
+				0E0293692557A64500E38F04 /* NavigationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0EE5958F2572A7C200869356 /* TextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				0E02933B25579C3500E38F04 /* TextToSpeechTableViewCell.swift */,
+				0EF7295A254D615100EE102A /* TextToSpeechTableViewController.swift */,
+				0E687582254D5DD1007F7C0A /* TextToSpeechViewController.swift */,
+			);
+			path = TextToSpeech;
+			sourceTree = "<group>";
+		};
+		0EE595902572A8A300869356 /* SpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				0EE595952572AAFD00869356 /* SpeechToTextTableViewCell.swift */,
+				0EA8B4D12572B13A005DB62C /* SpeechToTextTableViewController.swift */,
+				0E687585254D5DE6007F7C0A /* SpeechToTextViewController.swift */,
+			);
+			path = SpeechToText;
 			sourceTree = "<group>";
 		};
 		12CD33E63F35E12A142794AE /* Frameworks */ = {
@@ -253,17 +306,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7FA89A254DA75500C010DF /* Document.swift in Sources */,
+				0EA8B4E625734A71005DB62C /* SpeechToTextDocument+CoreDataProperties.swift in Sources */,
 				0E02936A2557A64500E38F04 /* NavigationViewController.swift in Sources */,
+				0EA8B4C22572AF60005DB62C /* Utilities.swift in Sources */,
 				0E687586254D5DE6007F7C0A /* SpeechToTextViewController.swift in Sources */,
 				0E687583254D5DD1007F7C0A /* TextToSpeechViewController.swift in Sources */,
 				0E7B1F8D254D4F550009D1AB /* ViewController.swift in Sources */,
-				0EF7295E254D62E900EE102A /* Utilities.swift in Sources */,
+				0EA8B4E725734A71005DB62C /* TextToSpeechDocument+CoreDataClass.swift in Sources */,
+				0EA8B4D22572B13A005DB62C /* SpeechToTextTableViewController.swift in Sources */,
+				0EA0B33325737E8500676C6F /* EditViewController.swift in Sources */,
 				0E0293662557A48500E38F04 /* Constants.swift in Sources */,
+				0EA8B4E825734A71005DB62C /* TextToSpeechDocument+CoreDataProperties.swift in Sources */,
 				0E02933C25579C3500E38F04 /* TextToSpeechTableViewCell.swift in Sources */,
+				0EE595962572AAFD00869356 /* SpeechToTextTableViewCell.swift in Sources */,
 				0E7B1F89254D4F550009D1AB /* AppDelegate.swift in Sources */,
 				0E7B1F8B254D4F550009D1AB /* SceneDelegate.swift in Sources */,
 				0EF7295B254D615100EE102A /* TextToSpeechTableViewController.swift in Sources */,
+				0EA8B4E525734A71005DB62C /* SpeechToTextDocument+CoreDataClass.swift in Sources */,
+				0E37DBED256B584A001CF4F1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +527,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E37DBEB256B584A001CF4F1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E37DBEC256B584A001CF4F1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0E37DBEC256B584A001CF4F1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0E7B1F7D254D4F550009D1AB /* Project object */;
 }
